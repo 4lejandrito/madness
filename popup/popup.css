@@ -1,0 +1,26 @@
+body {  
+    width: 250px;
+    height: auto;
+    text-align: center;
+    padding: 5px 5px 10px 5px;	
+	background-color: #FFFFFF;
+	border: 1px solid #b4b4b4;	
+}
+
+h5 {
+    margin-top: 0px;
+}
+
+.well {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 165px;
+    max-width: 165px !important;
+}
+
+button {
+    margin-top: 5px;  
+}

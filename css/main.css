@@ -1,0 +1,17 @@
+@import url("../fonts/font-awesome-4.0.3/css/font-awesome.css");
+
+header {	    
+	font-size: 20px;        
+    margin: 0 auto 0 auto;        
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+footer {	    
+	font-size: 12px;        
+    margin: 0 auto 0 auto;      
+    text-align: center;
+}

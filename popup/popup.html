@@ -1,0 +1,60 @@
+<html>
+
+    <head>
+        <title>Car to Trello for Chrome</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">        
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="popup.css">
+    </head>    
+
+    <body>
+
+        <header>
+            <i class="fa fa-truck"> </i> Car to Trello <i class="fa fa-trello"> </i>
+        </header>
+
+        <section class="container">
+
+            <article id="loading" class="well">
+                <div>
+                    <h5 class="name">Loading...</h5>            
+                </div>  
+            </article>
+
+            <article id="car" class="well hide">
+                <div>
+                    <h5 class="name"></h5>
+                    <img class="img-thumbnail">
+                    <h4><span id="price" class="label label-success"></span></h4>
+                </div>
+                <div>
+                    <button class="btn btn-primary" id="button" data-loading-text="Sending...">
+                        <span class="fa fa-trello"> </span> Save to Trello
+                    </button>
+                </div>
+            </article>
+
+            <article id="error" class="well hide">
+                <div id="car">
+                    <h5>Sorry, this page doesn't contain a valid car.</h5>                    
+                </div>  
+                <a class="btn btn-primary">
+                    <i class="fa fa-trello"> </i> Open Trello board
+                </a>
+            </article>
+
+        </section>
+
+        <footer class="text-muted"> 
+            With <span class="glyphicon glyphicon-heart"></span> by Alex
+        </footer>
+
+        <script type="text/javascript" src="../lib/jquery.js"></script>
+        <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../lib/trello.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+        
+    </body>
+
+</html>

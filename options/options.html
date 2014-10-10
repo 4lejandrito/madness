@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+        <title>Car to Trello for Chrome Options</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="options.css">
+    </head>
+
+    <body class="container-fluid">
+
+        <header>
+            <h1>
+                <i class="fa fa-truck"> </i> Car to Trello <i class="fa fa-trello"> </i>
+            </h1>
+        </header>
+
+        <section>
+
+            <article id="loading">
+                <div>
+                    <h5 class="name">Loading...</h5>
+                </div>
+            </article>
+
+            <article id="createBoard" class="hide">
+                <div class="alert alert-success">
+                    <strong>Congratulations!!</strong> You successfully installed Car to Trello.
+                     Your Trello board is ready, just click the button below to open it.
+                </div>
+            </article>
+
+            <article id="board" class="well hide">
+                <h3>Track your car selection using Car to Trello </h3>
+                <a class="btn btn-primary btn-lg" target="_blank">
+                    <i class="fa fa-trello"> </i> Open Trello board
+                </a>
+            </article>
+            
+        </section>
+
+        <footer class="text-muted">
+            With <span class="glyphicon glyphicon-heart"></span> by Alex
+        </footer>
+
+        <script type="text/javascript" src="../lib/jquery.js"></script>
+        <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../lib/chrome_ex_oauthsimple.js"></script>
+        <script type="text/javascript" src="../lib/chrome_ex_oauth.js"></script>
+        <script type="text/javascript" src="../lib/trello.js"></script>
+        <script type="text/javascript" src="options.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,34 @@
+body {    
+    width: 60%;
+    padding-bottom: 20px;   
+}
+
+@media (max-width:900px) {
+    body {    
+        width: 100%;    
+    }   
+}
+
+section {
+    text-align: center;
+}
+
+article {    
+    margin: 0 auto 0 auto;
+}
+
+#board h3 {
+    margin-top: 0px;    
+}
+
+#createBoard {
+	width: 70%;
+}
+
+#board h4 {
+	margin-top: 0px;    
+}
+
+#board a {
+	margin-top: 15px;
+}
